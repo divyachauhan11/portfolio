@@ -578,7 +578,7 @@ const useInView = (ref) => {
     );
     if (ref.current) obs.observe(ref.current);
     return () => obs.disconnect();
-  }, []);
+  }, [ref]);
   return visible;
 };
 
@@ -760,7 +760,7 @@ export default function Portfolio() {
           </h1>
           <p className="hero-role">
             React · Laravel · PHP · MySQL{" "}
-            <span>// Building digital experiences</span>
+            <span>{"// Building digital experiences"}</span>
           </p>
           <p className="hero-desc">
             Passionate Computer Science student at IMS Engineering College with a 9.0 CGPA, crafting
