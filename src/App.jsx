@@ -610,6 +610,7 @@ const projects = [
       "5-day forecast with hourly breakdown",
       "Dynamic backgrounds that change with weather conditions",
     ],
+    githubLink: "https://github.com/divyachauhan11/WeatherVerse",
   },
   {
     num: "02",
@@ -624,6 +625,7 @@ const projects = [
       "Priority & category filtering system",
       "Responsive Blade-powered dashboard",
     ],
+    githubLink: "https://github.com/divyachauhan11/TaskFlow",
   },
   {
     num: "03",
