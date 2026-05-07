@@ -949,6 +949,19 @@ export default function Portfolio() {
                       </div>
                     ))}
                   </div>
+                  {p.githubLink && (
+                    <div style={{ marginTop: "1.5rem" }}>
+                      <a
+                        href={p.githubLink}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="btn-outline"
+                        style={{ width: "100%", textAlign: "center" }}
+                      >
+                        View GitHub Repo →
+                      </a>
+                    </div>
+                  )}
                 </div>
               </div>
             </FadeIn>
